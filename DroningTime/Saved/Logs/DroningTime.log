@@ -4950,3 +4950,21 @@ Sampler Limit: 32
 [2025.02.07-22.21.21:045][711]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7417.228027
 [2025.02.07-22.21.22:045][713]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.02.07-22.21.22:045][713]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7417.894531, Update Interval: 359.265717
+[2025.02.07-22.21.50:809][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.02.07-22.21.52:472][654]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.07-22.21.52:526][654]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_Drone] ([2] browsable assets)...
+[2025.02.07-22.21.52:594][654]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Drone.BP_Drone]
+[2025.02.07-22.21.52:594][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Drone]
+[2025.02.07-22.21.52:594][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Drone.uasset" SILENT=true
+[2025.02.07-22.21.52:596][654]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Drone
+[2025.02.07-22.21.52:597][654]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_DroneB8D72D764F1B67B4D08C06816CDC872C.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Drone.uasset'
+[2025.02.07-22.21.52:605][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.916 ms (total: 5.28 sec)
+[2025.02.07-22.21.52:659][654]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.07-22.21.52:659][654]LogContentValidation: Enabled validators:
+[2025.02.07-22.21.52:659][654]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.07-22.21.52:659][654]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.07-22.21.52:659][654]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.07-22.21.52:659][654]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.07-22.21.52:659][654]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.07-22.21.52:659][654]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.07-22.21.52:659][654]AssetCheck: /Game/Blueprint/BP_Drone Validating asset
