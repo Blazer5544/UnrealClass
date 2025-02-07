@@ -5194,3 +5194,326 @@ Sampler Limit: 32
 [2025.02.07-22.28.19:258][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.02.07-22.28.19:260][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
 [2025.02.07-22.28.19:320][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.02.07-22.29.01:824][456]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-22.29.01:827][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-22.29.01:864][456]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2025.02.07-22.29.01:866][456]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.02.07-22.29.01:885][457]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.07-22.29.01:886][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001204s)
+[2025.02.07-22.29.01:886][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001236s)
+[2025.02.07-22.29.01:896][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.07-22.29.01:898][457]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.07-22.29.01:900][457]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2025.02.07-22.29.01:900][457]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.02.07-22.29.01:900][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-22.29.01:900][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-22.29.01:900][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-22.29.01:900][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-22.29.01:900][457]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.07-22.29.01:900][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-22.29.01:900][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.07-22.29.01:900][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-22.29.01:900][457]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-22.29.01:900][457]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-22.29.01:900][457]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-22.29.01:902][457]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-22.29.01:914][457]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.07-22.29.01:914][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-22.29.01:914][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-22.29.01:914][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-22.29.01:915][457]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.02.07-22.29.01:915][457]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.02.07-22.29.01:917][457]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.02.07-22.29.01:917][457]LogInit: FAudioDevice initialized with ID 18.
+[2025.02.07-22.29.01:917][457]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.02.07-22.29.01:917][457]LogAudio: Display: Audio Device (ID: 18) registered with world 'Drone'.
+[2025.02.07-22.29.01:917][457]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.02.07-22.29.01:920][457]LogLoad: Game class is 'GameModeBase'
+[2025.02.07-22.29.01:920][457]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.07-14.29.01
+[2025.02.07-22.29.01:920][457]LogWorld: Bringing up level for play took: 0.000614
+[2025.02.07-22.29.01:922][457]PIE: Server logged in
+[2025.02.07-22.29.01:922][457]PIE: Play in editor total start time 0.096 seconds.
+[2025.02.07-22.29.04:844][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-22.29.04:844][795]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.07-22.29.04:844][795]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-22.29.04:844][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-22.29.04:849][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-22.29.04:851][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-22.29.04:861][795]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.07-22.29.04:861][795]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.02.07-22.29.04:861][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.02.07-22.29.04:862][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.02.07-22.29.04:867][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-22.29.04:868][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.02.07-22.29.04:902][796]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.02.07-22.29.10:138][380]Cmd: DELETE
+[2025.02.07-22.29.10:138][380]Cmd: ACTOR DELETE
+[2025.02.07-22.29.10:141][380]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.07-22.29.10:152][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.07-22.29.10:155][380]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.02.07-22.29.12:139][616]Cmd: TRANSACTION UNDO
+[2025.02.07-22.29.12:139][616]LogEditorTransaction: Undo Delete Elements
+[2025.02.07-22.29.22:993][831]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-22.29.22:996][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-22.29.23:024][831]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2025.02.07-22.29.23:026][831]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.02.07-22.29.23:043][832]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.07-22.29.23:045][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001139s)
+[2025.02.07-22.29.23:045][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001176s)
+[2025.02.07-22.29.23:057][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.02.07-22.29.23:060][832]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.07-22.29.23:061][832]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2025.02.07-22.29.23:061][832]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.02.07-22.29.23:061][832]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-22.29.23:061][832]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-22.29.23:061][832]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-22.29.23:061][832]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-22.29.23:061][832]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.07-22.29.23:061][832]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-22.29.23:061][832]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.07-22.29.23:061][832]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-22.29.23:061][832]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-22.29.23:061][832]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-22.29.23:061][832]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-22.29.23:063][832]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-22.29.23:075][832]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.07-22.29.23:076][832]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-22.29.23:076][832]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-22.29.23:076][832]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-22.29.23:076][832]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.02.07-22.29.23:076][832]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.02.07-22.29.23:078][832]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.02.07-22.29.23:078][832]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.02.07-22.29.23:078][832]LogInit: FAudioDevice initialized with ID 19.
+[2025.02.07-22.29.23:078][832]LogAudio: Display: Audio Device (ID: 19) registered with world 'Drone'.
+[2025.02.07-22.29.23:078][832]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.02.07-22.29.23:080][832]LogLoad: Game class is 'GameModeBase'
+[2025.02.07-22.29.23:080][832]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.07-14.29.23
+[2025.02.07-22.29.23:081][832]LogWorld: Bringing up level for play took: 0.000566
+[2025.02.07-22.29.23:082][832]PIE: Server logged in
+[2025.02.07-22.29.23:082][832]PIE: Play in editor total start time 0.086 seconds.
+[2025.02.07-22.29.27:024][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-22.29.27:024][296]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.07-22.29.27:024][296]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-22.29.27:024][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-22.29.27:028][296]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-22.29.27:030][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-22.29.27:042][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-22.29.27:042][296]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.02.07-22.29.27:042][296]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.02.07-22.29.27:044][296]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.02.07-22.29.27:049][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.07-22.29.27:111][298]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.02.07-22.32.00:538][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.02.07-22.32.00:544][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Drone_Auto0
+[2025.02.07-22.32.00:544][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Drone_Auto0D1141A8B498E61DC31B825BAFAA1E282.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Drone_Auto0.umap'
+[2025.02.07-22.32.00:545][625]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Drone' took 0.021
+[2025.02.07-22.32.00:545][625]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.021
+[2025.02.07-22.32.00:546][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Test] ([2] browsable assets)...
+[2025.02.07-22.32.00:546][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Test]
+[2025.02.07-22.32.00:546][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Test_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2025.02.07-22.32.00:548][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Test_Auto0
+[2025.02.07-22.32.00:548][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Test_Auto069840C964C35114EB5B2AFAE37FB9AF2.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Test_Auto0.uasset'
+[2025.02.07-22.32.00:548][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Sphere_AF6C7A09] ([1] browsable assets)...
+[2025.02.07-22.32.00:548][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Sphere_AF6C7A09]
+[2025.02.07-22.32.00:551][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Sphere_AF6C7A09_Auto0
+[2025.02.07-22.32.00:551][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Sphere_AF6C7A09_Auto008F51AEF436B6CF49920B2AA9DDDA307.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Sphere_AF6C7A09_Auto0.uasset'
+[2025.02.07-22.32.00:552][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cylinder_F2BE44B1] ([1] browsable assets)...
+[2025.02.07-22.32.00:552][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cylinder_F2BE44B1]
+[2025.02.07-22.32.00:553][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cylinder_F2BE44B1_Auto0
+[2025.02.07-22.32.00:553][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cylinder_F2BE44B1_Auto080F09DAF4D9C9ACDAAD3568F47E8067D.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cylinder_F2BE44B1_Auto0.uasset'
+[2025.02.07-22.32.00:553][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Sphere_A7ECC7FD] ([1] browsable assets)...
+[2025.02.07-22.32.00:553][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Sphere_A7ECC7FD]
+[2025.02.07-22.32.00:556][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Sphere_A7ECC7FD_Auto0
+[2025.02.07-22.32.00:556][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Sphere_A7ECC7FD_Auto0CAC7E6984D20CB219284429F0A55D4AB.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Sphere_A7ECC7FD_Auto0.uasset'
+[2025.02.07-22.32.00:556][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Sphere_06A5F595] ([1] browsable assets)...
+[2025.02.07-22.32.00:556][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Sphere_06A5F595]
+[2025.02.07-22.32.00:559][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Sphere_06A5F595_Auto0
+[2025.02.07-22.32.00:559][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Sphere_06A5F595_Auto05683AA4642E957159CC49398B2F66D48.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Sphere_06A5F595_Auto0.uasset'
+[2025.02.07-22.32.00:559][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cylinder_3A65B9E7] ([1] browsable assets)...
+[2025.02.07-22.32.00:559][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cylinder_3A65B9E7]
+[2025.02.07-22.32.00:560][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cylinder_3A65B9E7_Auto0
+[2025.02.07-22.32.00:560][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cylinder_3A65B9E7_Auto027809CBA40EC3A6777BFA18372E880BC.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cylinder_3A65B9E7_Auto0.uasset'
+[2025.02.07-22.32.00:560][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cylinder_ED2AEBF4] ([1] browsable assets)...
+[2025.02.07-22.32.00:560][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cylinder_ED2AEBF4]
+[2025.02.07-22.32.00:562][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cylinder_ED2AEBF4_Auto0
+[2025.02.07-22.32.00:562][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cylinder_ED2AEBF4_Auto0B5D3137E432D01F87AAEC78984430CFF.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cylinder_ED2AEBF4_Auto0.uasset'
+[2025.02.07-22.32.00:563][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Box_D6A5A39E] ([1] browsable assets)...
+[2025.02.07-22.32.00:563][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Box_D6A5A39E]
+[2025.02.07-22.32.00:564][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Box_D6A5A39E_Auto0
+[2025.02.07-22.32.00:564][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Box_D6A5A39E_Auto0210EBA4441BE9051BDCBF5A2F19437FA.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Box_D6A5A39E_Auto0.uasset'
+[2025.02.07-22.32.00:564][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cylinder_7308068C] ([1] browsable assets)...
+[2025.02.07-22.32.00:564][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cylinder_7308068C]
+[2025.02.07-22.32.00:565][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cylinder_7308068C_Auto0
+[2025.02.07-22.32.00:565][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cylinder_7308068C_Auto0D68DD6204F1C1718E0983795D5430759.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cylinder_7308068C_Auto0.uasset'
+[2025.02.07-22.32.00:566][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cylinder_36A95920] ([1] browsable assets)...
+[2025.02.07-22.32.00:566][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cylinder_36A95920]
+[2025.02.07-22.32.00:566][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cylinder_36A95920_Auto0
+[2025.02.07-22.32.00:566][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cylinder_36A95920_Auto06BCCD04C4FB7803E1FE056BAC2A55E56.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cylinder_36A95920_Auto0.uasset'
+[2025.02.07-22.32.00:567][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_E6E7BD70] ([1] browsable assets)...
+[2025.02.07-22.32.00:567][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_E6E7BD70]
+[2025.02.07-22.32.00:569][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_E6E7BD70_Auto0
+[2025.02.07-22.32.00:569][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_E6E7BD70_Auto0D997754941031535A63510B5C2AC6E3F.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_E6E7BD70_Auto0.uasset'
+[2025.02.07-22.32.00:570][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_36375B29] ([1] browsable assets)...
+[2025.02.07-22.32.00:570][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_36375B29]
+[2025.02.07-22.32.00:575][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_36375B29_Auto0
+[2025.02.07-22.32.00:575][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_36375B29_Auto0A9AF52E345C960D132FA85BD6582CE77.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_36375B29_Auto0.uasset'
+[2025.02.07-22.32.00:576][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_158E8573] ([1] browsable assets)...
+[2025.02.07-22.32.00:576][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_158E8573]
+[2025.02.07-22.32.00:578][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_158E8573_Auto0
+[2025.02.07-22.32.00:578][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_158E8573_Auto005844B7B45398874831CEA997C4A089C.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_158E8573_Auto0.uasset'
+[2025.02.07-22.32.00:579][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_CC89F3C3] ([1] browsable assets)...
+[2025.02.07-22.32.00:579][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_CC89F3C3]
+[2025.02.07-22.32.00:581][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_CC89F3C3_Auto0
+[2025.02.07-22.32.00:581][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_CC89F3C3_Auto0E0D128A04BA6E57402850A9ABF63E126.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_CC89F3C3_Auto0.uasset'
+[2025.02.07-22.32.00:582][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_85FBAA4B] ([1] browsable assets)...
+[2025.02.07-22.32.00:582][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_85FBAA4B]
+[2025.02.07-22.32.00:584][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_85FBAA4B_Auto0
+[2025.02.07-22.32.00:584][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_85FBAA4B_Auto081D5070540502E9CD6E326B0D3FB1F65.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_85FBAA4B_Auto0.uasset'
+[2025.02.07-22.32.00:584][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Disc_5BEA3918] ([1] browsable assets)...
+[2025.02.07-22.32.00:584][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Disc_5BEA3918]
+[2025.02.07-22.32.00:585][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Disc_5BEA3918_Auto0
+[2025.02.07-22.32.00:585][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Disc_5BEA3918_Auto0E12C4DE944CA3407F4A544B4CA00B70A.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Disc_5BEA3918_Auto0.uasset'
+[2025.02.07-22.32.00:585][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Disc_0B3382D4] ([1] browsable assets)...
+[2025.02.07-22.32.00:585][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Disc_0B3382D4]
+[2025.02.07-22.32.00:586][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Disc_0B3382D4_Auto0
+[2025.02.07-22.32.00:586][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Disc_0B3382D4_Auto073F4C32E44D70C665EB055B464F65805.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Disc_0B3382D4_Auto0.uasset'
+[2025.02.07-22.32.00:587][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_C1699C68] ([1] browsable assets)...
+[2025.02.07-22.32.00:587][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_C1699C68]
+[2025.02.07-22.32.00:590][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_C1699C68_Auto0
+[2025.02.07-22.32.00:590][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_C1699C68_Auto00005009C470919E3F3BE1EB40FBEE6D2.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_C1699C68_Auto0.uasset'
+[2025.02.07-22.32.00:590][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cylinder_1C011AEB] ([1] browsable assets)...
+[2025.02.07-22.32.00:590][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cylinder_1C011AEB]
+[2025.02.07-22.32.00:590][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cylinder_1C011AEB_Auto0
+[2025.02.07-22.32.00:592][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cylinder_1C011AEB_Auto0CF15E9A74CB49FCE697FDCBD879208B4.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cylinder_1C011AEB_Auto0.uasset'
+[2025.02.07-22.32.00:592][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_B9D1219E] ([1] browsable assets)...
+[2025.02.07-22.32.00:592][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_B9D1219E]
+[2025.02.07-22.32.00:595][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_B9D1219E_Auto0
+[2025.02.07-22.32.00:595][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_B9D1219E_Auto00BF7C01E42FD8021BCCA5FBD1C98A28B.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_B9D1219E_Auto0.uasset'
+[2025.02.07-22.32.00:595][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cylinder_4B7A12EB] ([1] browsable assets)...
+[2025.02.07-22.32.00:595][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cylinder_4B7A12EB]
+[2025.02.07-22.32.00:596][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cylinder_4B7A12EB_Auto0
+[2025.02.07-22.32.00:596][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cylinder_4B7A12EB_Auto0C3EC86544C545535CBF83BAF15D9C5AD.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cylinder_4B7A12EB_Auto0.uasset'
+[2025.02.07-22.32.00:597][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_2A33CA9A] ([1] browsable assets)...
+[2025.02.07-22.32.00:597][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_2A33CA9A]
+[2025.02.07-22.32.00:600][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_2A33CA9A_Auto0
+[2025.02.07-22.32.00:600][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_2A33CA9A_Auto0218670AC46947BC19C2D0C8D9290735B.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_2A33CA9A_Auto0.uasset'
+[2025.02.07-22.32.00:600][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_F1099C80] ([1] browsable assets)...
+[2025.02.07-22.32.00:600][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_F1099C80]
+[2025.02.07-22.32.00:603][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_F1099C80_Auto0
+[2025.02.07-22.32.00:603][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_F1099C80_Auto0EF338C6C452668995FF7C484EBABC2BF.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_F1099C80_Auto0.uasset'
+[2025.02.07-22.32.00:604][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_CF6D68FE] ([1] browsable assets)...
+[2025.02.07-22.32.00:604][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_CF6D68FE]
+[2025.02.07-22.32.00:607][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_CF6D68FE_Auto0
+[2025.02.07-22.32.00:607][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_CF6D68FE_Auto0970958854A8829043FE4B48AB4F9A335.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_CF6D68FE_Auto0.uasset'
+[2025.02.07-22.32.00:607][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Boolean_0B072045] ([1] browsable assets)...
+[2025.02.07-22.32.00:607][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Boolean_0B072045]
+[2025.02.07-22.32.00:610][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Boolean_0B072045_Auto0
+[2025.02.07-22.32.00:610][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Boolean_0B072045_Auto0547C2F4B44635E9F5F812EAA6F586C6D.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Boolean_0B072045_Auto0.uasset'
+[2025.02.07-22.32.00:610][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Cone_E3DBB3C9] ([1] browsable assets)...
+[2025.02.07-22.32.00:610][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Cone_E3DBB3C9]
+[2025.02.07-22.32.00:611][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Cone_E3DBB3C9_Auto0
+[2025.02.07-22.32.00:611][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Cone_E3DBB3C9_Auto0FD61BC6D4E5C23BBA5983696F3B35FD7.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Cone_E3DBB3C9_Auto0.uasset'
+[2025.02.07-22.32.00:613][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_GENERATED/jmorale023/Dog_Drone] ([1] browsable assets)...
+[2025.02.07-22.32.00:687][625]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/_GENERATED/jmorale023/Dog_Drone.Dog_Drone]
+[2025.02.07-22.32.00:687][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Dog_Drone]
+[2025.02.07-22.32.00:690][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_GENERATED/jmorale023/Dog_Drone_Auto0
+[2025.02.07-22.32.00:690][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Dog_Drone_Auto07F90C7094F2CF08F8E5937B4E8B9B9D3.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/_GENERATED/jmorale023/Dog_Drone_Auto0.uasset'
+[2025.02.07-22.32.00:691][625]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_Drone] ([2] browsable assets)...
+[2025.02.07-22.32.00:707][625]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Drone.BP_Drone]
+[2025.02.07-22.32.00:707][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Drone]
+[2025.02.07-22.32.00:711][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_Drone_Auto0
+[2025.02.07-22.32.00:711][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Drone_Auto02F66A33D49364D482F7D998506DA7D3E.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Blueprint/BP_Drone_Auto0.uasset'
+[2025.02.07-22.32.00:711][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/M_Drone] ([1] browsable assets)...
+[2025.02.07-22.32.00:711][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Drone]
+[2025.02.07-22.32.00:711][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/M_Drone_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2025.02.07-22.32.00:712][625]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/M_Drone_Auto0
+[2025.02.07-22.32.00:712][625]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/M_Drone_Auto08F0F9E584CCC075F2F3025A54032CA91.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/M_Drone_Auto0.uasset'
+[2025.02.07-22.32.00:713][625]LogFileHelpers: Auto-saving content packages took 0.167
+[2025.02.07-22.33.15:762][595]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-22.33.15:765][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-22.33.15:793][595]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2025.02.07-22.33.15:795][595]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.02.07-22.33.15:814][596]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.07-22.33.15:815][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001213s)
+[2025.02.07-22.33.15:815][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001253s)
+[2025.02.07-22.33.15:827][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.02.07-22.33.15:829][596]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.07-22.33.15:830][596]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2025.02.07-22.33.15:831][596]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.02.07-22.33.15:831][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-22.33.15:831][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-22.33.15:831][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-22.33.15:831][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-22.33.15:831][596]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.07-22.33.15:831][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-22.33.15:831][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.07-22.33.15:831][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-22.33.15:831][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-22.33.15:831][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-22.33.15:831][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-22.33.15:833][596]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-22.33.15:846][596]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.07-22.33.15:847][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-22.33.15:847][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-22.33.15:847][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-22.33.15:847][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.02.07-22.33.15:847][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.02.07-22.33.15:849][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.02.07-22.33.15:849][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.02.07-22.33.15:849][596]LogInit: FAudioDevice initialized with ID 20.
+[2025.02.07-22.33.15:849][596]LogAudio: Display: Audio Device (ID: 20) registered with world 'Drone'.
+[2025.02.07-22.33.15:849][596]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.02.07-22.33.15:852][596]LogLoad: Game class is 'GameModeBase'
+[2025.02.07-22.33.15:852][596]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.07-14.33.15
+[2025.02.07-22.33.15:852][596]LogWorld: Bringing up level for play took: 0.000589
+[2025.02.07-22.33.15:853][596]PIE: Server logged in
+[2025.02.07-22.33.15:854][596]PIE: Play in editor total start time 0.089 seconds.
+[2025.02.07-22.33.28:372][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-22.33.28:372][ 86]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.07-22.33.28:372][ 86]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-22.33.28:372][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-22.33.28:382][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-22.33.28:385][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-22.33.28:394][ 86]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.07-22.33.28:394][ 86]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.02.07-22.33.28:394][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.02.07-22.33.28:396][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.02.07-22.33.28:399][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-22.33.28:400][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.02.07-22.33.28:435][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.02.07-22.33.52:094][489]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8168.190430
+[2025.02.07-22.33.52:135][494]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.07-22.33.52:135][494]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8168.223633, Update Interval: 318.373352
+[2025.02.07-22.33.54:613][751]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.07-22.33.54:660][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.02.07-22.33.54:675][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.02.07-22.33.54:682][751]LogSavePackage: Moving output files for package: /Game/Drone
+[2025.02.07-22.33.54:682][751]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Drone180D42E848CB022282A26EB79730E394.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap'
+[2025.02.07-22.33.54:687][751]LogFileHelpers: Saving map 'Drone' took 0.026
+[2025.02.07-22.33.54:691][751]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.289 ms (total: 5.36 sec)
+[2025.02.07-22.33.54:732][751]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.07-22.33.54:732][751]LogContentValidation: Enabled validators:
+[2025.02.07-22.33.54:732][751]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.07-22.33.54:732][751]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.07-22.33.54:732][751]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.07-22.33.54:732][751]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.07-22.33.54:732][751]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.07-22.33.54:732][751]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.07-22.33.54:733][751]AssetCheck: /Game/Drone Validating asset
+[2025.02.07-22.33.57:125][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.07-22.33.57:178][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.02.07-22.33.57:193][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.07-22.33.57:198][989]LogSavePackage: Moving output files for package: /Game/Drone
+[2025.02.07-22.33.57:198][989]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/DroneCEE18C4244E2863E4FF158A6D5E19284.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap'
+[2025.02.07-22.33.57:204][989]LogFileHelpers: Saving map 'Drone' took 0.025
+[2025.02.07-22.33.57:208][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.744 ms (total: 5.44 sec)
+[2025.02.07-22.33.57:269][989]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.07-22.33.57:269][989]LogContentValidation: Enabled validators:
+[2025.02.07-22.33.57:269][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.07-22.33.57:269][989]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.07-22.33.57:269][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.07-22.33.57:269][989]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.07-22.33.57:269][989]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.07-22.33.57:269][989]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.07-22.33.57:269][989]AssetCheck: /Game/Drone Validating asset
