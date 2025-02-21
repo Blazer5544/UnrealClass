@@ -6,14 +6,9 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/jmorale023/Dog_Drone.uasset",
-				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/jmorale023/Drone_Bullet.uasset",
-				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/Drone_Bullet.uasset",
-				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/Dog_Drone.uasset",
 				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/SM_Drone_Bullet.uasset",
 				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/SM_Dog_Drone.uasset",
 				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/Drone.umap",
-				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/jmorale023/SM_Sandwich_Bullet.uasset",
-				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/SM_Sandwich_Bullet.uasset",
 				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/SM_Sandwich_Bullet.uasset",
 				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/Blueprint/BP_Drone.uasset",
 				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/jmorale023/Boolean_2A2E99C4.uasset",
@@ -208,7 +203,15 @@
 				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/_GENERATED/jmorale023/Sphere_06A5F595.uasset",
 				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/_GENERATED/jmorale023/Sphere_A7ECC7FD.uasset",
 				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/_GENERATED/jmorale023/Sphere_AF6C7A09.uasset",
-				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Test.uasset"
+				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Test.uasset",
+				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/_GENERATED/jmorale023/SM_Wall.uasset",
+				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/SM_Wall.uasset",
+				"C:/Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/_GENERATED/jmorale023/Wall.uasset",
+				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/jmorale023/Drone_Bullet.uasset",
+				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/Drone_Bullet.uasset",
+				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/Dog_Drone.uasset",
+				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/jmorale023/SM_Sandwich_Bullet.uasset",
+				"C:/Users/jmorale023/Downloads/UnrealClass-main/UnrealClass-main/DroningTime/Content/_GENERATED/SM_Sandwich_Bullet.uasset"
 			]
 		}
 	]
