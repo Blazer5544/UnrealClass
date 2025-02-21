@@ -4789,3 +4789,520 @@ Sampler Limit: 32
 [2025.02.21-21.58.40:362][ 23]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6227.698730
 [2025.02.21-21.58.40:429][ 31]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.02.21-21.58.40:429][ 31]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6227.757812, Update Interval: 301.935486
+[2025.02.21-22.03.13:822][705]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.21-22.03.13:825][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.21-22.03.13:849][705]LogPlayLevel: Display: Creating online subsystem for client :Context_48
+[2025.02.21-22.03.13:851][705]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.02.21-22.03.13:877][706]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.21-22.03.13:878][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001710s)
+[2025.02.21-22.03.13:878][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001754s)
+[2025.02.21-22.03.13:893][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.02.21-22.03.13:897][706]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.21-22.03.13:898][706]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2025.02.21-22.03.13:898][706]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.02.21-22.03.13:898][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.21-22.03.13:898][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.21-22.03.13:898][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.21-22.03.13:898][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.21-22.03.13:898][706]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.21-22.03.13:898][706]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.21-22.03.13:898][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.21-22.03.13:898][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.21-22.03.13:898][706]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.21-22.03.13:898][706]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.21-22.03.13:898][706]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.21-22.03.13:901][706]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.21-22.03.13:913][706]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.21-22.03.13:913][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.21-22.03.13:913][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.21-22.03.13:913][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.21-22.03.13:914][706]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.02.21-22.03.13:914][706]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.02.21-22.03.13:916][706]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.02.21-22.03.13:916][706]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.02.21-22.03.13:916][706]LogInit: FAudioDevice initialized with ID 28.
+[2025.02.21-22.03.13:916][706]LogAudio: Display: Audio Device (ID: 28) registered with world 'Drone'.
+[2025.02.21-22.03.13:916][706]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.02.21-22.03.13:919][706]LogLoad: Game class is 'MyGameModeBase_C'
+[2025.02.21-22.03.13:920][706]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.21-14.03.13
+[2025.02.21-22.03.13:920][706]LogWorld: Bringing up level for play took: 0.000732
+[2025.02.21-22.03.13:922][706]PIE: Server logged in
+[2025.02.21-22.03.13:923][706]PIE: Play in editor total start time 0.097 seconds.
+[2025.02.21-22.03.25:289][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.03.25:289][ 58]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.21-22.03.25:290][ 58]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.21-22.03.25:290][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.03.25:293][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.21-22.03.25:295][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.03.25:305][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.03.25:305][ 58]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.02.21-22.03.25:305][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.02.21-22.03.25:307][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.02.21-22.03.25:311][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.02.21-22.03.25:363][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.02.21-22.04.25:532][260]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6572.826660
+[2025.02.21-22.04.25:573][265]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.21-22.04.25:573][266]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6572.858887, Update Interval: 304.103516
+[2025.02.21-22.04.44:911][540]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.21-22.04.44:915][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.21-22.04.44:950][540]LogPlayLevel: Display: Creating online subsystem for client :Context_49
+[2025.02.21-22.04.44:952][540]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2025.02.21-22.04.44:979][541]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.21-22.04.44:980][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001342s)
+[2025.02.21-22.04.44:980][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001380s)
+[2025.02.21-22.04.44:991][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.02.21-22.04.44:995][541]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.21-22.04.44:996][541]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2025.02.21-22.04.44:997][541]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.02.21-22.04.44:997][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.21-22.04.44:997][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.21-22.04.44:997][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.21-22.04.44:997][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.21-22.04.44:997][541]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.21-22.04.44:997][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.21-22.04.44:997][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.21-22.04.44:997][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.21-22.04.44:997][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.21-22.04.44:997][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.21-22.04.44:997][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.21-22.04.44:998][541]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.21-22.04.45:010][541]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.21-22.04.45:010][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.21-22.04.45:010][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.21-22.04.45:010][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.21-22.04.45:011][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.02.21-22.04.45:011][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2025.02.21-22.04.45:012][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.02.21-22.04.45:012][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.02.21-22.04.45:012][541]LogInit: FAudioDevice initialized with ID 29.
+[2025.02.21-22.04.45:012][541]LogAudio: Display: Audio Device (ID: 29) registered with world 'Drone'.
+[2025.02.21-22.04.45:012][541]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.02.21-22.04.45:014][541]LogLoad: Game class is 'MyGameModeBase_C'
+[2025.02.21-22.04.45:015][541]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.21-14.04.45
+[2025.02.21-22.04.45:015][541]LogWorld: Bringing up level for play took: 0.000693
+[2025.02.21-22.04.45:017][541]PIE: Server logged in
+[2025.02.21-22.04.45:018][541]PIE: Play in editor total start time 0.103 seconds.
+[2025.02.21-22.04.47:299][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.04.47:299][804]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.21-22.04.47:299][804]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.21-22.04.47:299][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.04.47:302][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.21-22.04.47:304][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.04.47:320][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.04.47:320][804]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.02.21-22.04.47:320][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.02.21-22.04.47:322][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.02.21-22.04.47:327][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.02.21-22.04.47:376][805]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2025.02.21-22.06.44:556][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.02.21-22.06.44:563][768]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Drone_Auto0
+[2025.02.21-22.06.44:563][768]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Drone_Auto095F713554A6E1C3921620D91A24BF9D2.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Drone_Auto0.umap'
+[2025.02.21-22.06.44:563][768]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Drone' took 0.023
+[2025.02.21-22.06.44:563][768]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.023
+[2025.02.21-22.06.44:564][768]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_Drone] ([2] browsable assets)...
+[2025.02.21-22.06.44:642][768]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Drone.BP_Drone]
+[2025.02.21-22.06.44:642][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Drone]
+[2025.02.21-22.06.44:648][768]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_Drone_Auto0
+[2025.02.21-22.06.44:648][768]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Drone_Auto0E4E5E61D40EB741BFB499AA52DBA4139.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Blueprint/BP_Drone_Auto0.uasset'
+[2025.02.21-22.06.44:649][768]LogFileHelpers: Auto-saving content packages took 0.086
+[2025.02.21-22.10.00:213][221]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6907.405273
+[2025.02.21-22.10.00:254][226]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.21-22.10.00:254][227]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6907.438477, Update Interval: 320.993683
+[2025.02.21-22.12.26:344][714]LogBlueprint: Error: [AssetLog] C:\Users\jmorale023\Documents\GitHub\UnrealClass\DroningTime\Content\Blueprint\BP_Drone.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Array of Default Pawn Object References is not compatible with Array of Pawn Object References.' at  Get (a copy)
+[2025.02.21-22.12.26:344][714]LogBlueprint: Error: [AssetLog] C:\Users\jmorale023\Documents\GitHub\UnrealClass\DroningTime\Content\Blueprint\BP_Drone.uasset: [Compiler] Can't connect pins  Out Actors  and  Target Array : Array of Pawn Object References is not compatible with Array of Default Pawn Object References.
+[2025.02.21-22.12.26:344][714]LogBlueprint: Error: [AssetLog] C:\Users\jmorale023\Documents\GitHub\UnrealClass\DroningTime\Content\Blueprint\BP_Drone.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2025.02.21-22.12.26:344][714]LogBlueprint: Error: [AssetLog] C:\Users\jmorale023\Documents\GitHub\UnrealClass\DroningTime\Content\Blueprint\BP_Drone.uasset: [Compiler] Can't connect pins  Target Array  and  Out Actors : Array of Default Pawn Object References is not compatible with Array of Pawn Object References.
+[2025.02.21-22.12.26:347][714]LogStreaming: Display: FlushAsyncLoading(692): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.21-22.12.26:370][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.02.21-22.13.12:326][ 55]LogDerivedDataCache: C:/Users/jmorale023/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.21-22.13.18:324][760]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: ff4...309
+[2025.02.21-22.13.18:324][760]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.99 RefreshExpires: 1.554e+07
+[2025.02.21-22.13.18:408][770]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: ff4...309 Access[Expires: 2025.02.22-00.13.18 Remaining: 7200.37] Refresh[Expires: 2025-08-20T20:10:07.369Z Remaining: 15544609.37] State: Valid
+[2025.02.21-22.13.22:685][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.21-22.13.25:206][552]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.21-22.13.25:209][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.21-22.13.25:249][552]LogPlayLevel: Display: Creating online subsystem for client :Context_50
+[2025.02.21-22.13.25:251][552]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2025.02.21-22.13.25:281][553]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.21-22.13.25:282][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001402s)
+[2025.02.21-22.13.25:282][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001442s)
+[2025.02.21-22.13.25:293][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.02.21-22.13.25:297][553]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.21-22.13.25:298][553]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2025.02.21-22.13.25:298][553]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.02.21-22.13.25:298][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.21-22.13.25:298][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.21-22.13.25:298][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.21-22.13.25:298][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.21-22.13.25:298][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.21-22.13.25:298][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.21-22.13.25:298][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.21-22.13.25:298][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.21-22.13.25:298][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.21-22.13.25:298][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.21-22.13.25:298][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.21-22.13.25:302][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.21-22.13.25:314][553]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.21-22.13.25:314][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.21-22.13.25:314][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.21-22.13.25:314][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.21-22.13.25:315][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.02.21-22.13.25:315][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.02.21-22.13.25:317][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.02.21-22.13.25:317][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.02.21-22.13.25:317][553]LogInit: FAudioDevice initialized with ID 30.
+[2025.02.21-22.13.25:317][553]LogAudio: Display: Audio Device (ID: 30) registered with world 'Drone'.
+[2025.02.21-22.13.25:317][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.02.21-22.13.25:319][553]LogLoad: Game class is 'MyGameModeBase_C'
+[2025.02.21-22.13.25:319][553]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.21-14.13.25
+[2025.02.21-22.13.25:320][553]LogWorld: Bringing up level for play took: 0.000688
+[2025.02.21-22.13.25:321][553]PIE: Server logged in
+[2025.02.21-22.13.25:322][553]PIE: Play in editor total start time 0.113 seconds.
+[2025.02.21-22.13.50:269][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.13.50:269][536]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.21-22.13.50:269][536]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.21-22.13.50:269][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.13.50:272][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.21-22.13.50:275][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.13.50:285][536]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.21-22.13.50:285][536]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.02.21-22.13.50:285][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.02.21-22.13.50:287][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.02.21-22.13.50:291][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.13.50:293][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.02.21-22.13.50:345][537]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.02.21-22.14.50:287][704]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.21-22.14.50:290][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.21-22.14.50:319][704]LogPlayLevel: Display: Creating online subsystem for client :Context_51
+[2025.02.21-22.14.50:321][704]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2025.02.21-22.14.50:351][705]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.21-22.14.50:353][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001307s)
+[2025.02.21-22.14.50:353][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001342s)
+[2025.02.21-22.14.50:390][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.02.21-22.14.50:392][705]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.21-22.14.50:393][705]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2025.02.21-22.14.50:394][705]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2025.02.21-22.14.50:394][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.21-22.14.50:394][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.21-22.14.50:394][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.21-22.14.50:394][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.21-22.14.50:394][705]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.21-22.14.50:394][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.21-22.14.50:394][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.21-22.14.50:394][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.21-22.14.50:394][705]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.21-22.14.50:394][705]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.21-22.14.50:394][705]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.21-22.14.50:396][705]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.21-22.14.50:407][705]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.21-22.14.50:407][705]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.21-22.14.50:407][705]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.21-22.14.50:407][705]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.21-22.14.50:408][705]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2025.02.21-22.14.50:408][705]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2025.02.21-22.14.50:409][705]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2025.02.21-22.14.50:409][705]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2025.02.21-22.14.50:409][705]LogInit: FAudioDevice initialized with ID 31.
+[2025.02.21-22.14.50:409][705]LogAudio: Display: Audio Device (ID: 31) registered with world 'Drone'.
+[2025.02.21-22.14.50:409][705]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2025.02.21-22.14.50:412][705]LogLoad: Game class is 'MyGameModeBase_C'
+[2025.02.21-22.14.50:412][705]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.21-14.14.50
+[2025.02.21-22.14.50:413][705]LogWorld: Bringing up level for play took: 0.000594
+[2025.02.21-22.14.50:414][705]PIE: Server logged in
+[2025.02.21-22.14.50:415][705]PIE: Play in editor total start time 0.125 seconds.
+[2025.02.21-22.15.57:889][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.15.57:889][790]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.21-22.15.57:889][790]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.21-22.15.57:889][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.15.57:893][790]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.21-22.15.57:895][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.15.57:907][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.15.57:907][790]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2025.02.21-22.15.57:907][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2025.02.21-22.15.57:909][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2025.02.21-22.15.57:915][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.02.21-22.15.57:968][791]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2025.02.21-22.16.19:698][371]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7286.632324
+[2025.02.21-22.16.19:747][377]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.21-22.16.19:747][377]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7286.674316, Update Interval: 325.998108
+[2025.02.21-22.16.32:610][917]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.21-22.16.32:614][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.21-22.16.32:638][917]LogPlayLevel: Display: Creating online subsystem for client :Context_52
+[2025.02.21-22.16.32:640][917]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2025.02.21-22.16.32:671][918]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.21-22.16.32:672][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001283s)
+[2025.02.21-22.16.32:672][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001321s)
+[2025.02.21-22.16.32:682][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.02.21-22.16.32:685][918]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.21-22.16.32:686][918]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2025.02.21-22.16.32:687][918]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2025.02.21-22.16.32:687][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.21-22.16.32:687][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.21-22.16.32:687][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.21-22.16.32:687][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.21-22.16.32:687][918]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.21-22.16.32:687][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.21-22.16.32:687][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.21-22.16.32:687][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.21-22.16.32:687][918]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.21-22.16.32:687][918]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.21-22.16.32:687][918]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.21-22.16.32:689][918]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.21-22.16.32:701][918]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.21-22.16.32:701][918]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.21-22.16.32:701][918]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.21-22.16.32:701][918]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.21-22.16.32:702][918]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2025.02.21-22.16.32:702][918]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2025.02.21-22.16.32:703][918]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2025.02.21-22.16.32:703][918]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2025.02.21-22.16.32:703][918]LogInit: FAudioDevice initialized with ID 32.
+[2025.02.21-22.16.32:703][918]LogAudio: Display: Audio Device (ID: 32) registered with world 'Drone'.
+[2025.02.21-22.16.32:703][918]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2025.02.21-22.16.32:705][918]LogLoad: Game class is 'MyGameModeBase_C'
+[2025.02.21-22.16.32:706][918]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.21-14.16.32
+[2025.02.21-22.16.32:706][918]LogWorld: Bringing up level for play took: 0.000729
+[2025.02.21-22.16.32:707][918]PIE: Server logged in
+[2025.02.21-22.16.32:708][918]PIE: Play in editor total start time 0.094 seconds.
+[2025.02.21-22.16.57:201][851]LogCharacterMovement: BP_Player_C_0 is stuck and failed to move! Velocity: X=-575.66 Y=169.15 Z=0.00 Location: X=1509.64 Y=-815.36 Z=89.65 Normal: X=0.98 Y=-0.17 Z=-0.00 PenetrationDepth:0.972 Actor:BP_Sandwich_Bullet_C_10 Component:StaticMesh BoneName:None (0 other events since notify)
+[2025.02.21-22.17.03:920][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.17.03:920][649]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.21-22.17.03:920][649]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.21-22.17.03:920][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.17.03:923][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.21-22.17.03:926][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.17.03:936][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.17.03:936][649]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2025.02.21-22.17.03:936][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2025.02.21-22.17.03:937][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2025.02.21-22.17.03:943][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.21-22.17.03:994][650]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2025.02.21-22.17.45:533][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.02.21-22.17.47:132][677]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.21-22.17.47:136][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.21-22.17.47:178][677]LogPlayLevel: Display: Creating online subsystem for client :Context_53
+[2025.02.21-22.17.47:180][677]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2025.02.21-22.17.47:210][678]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.21-22.17.47:211][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001313s)
+[2025.02.21-22.17.47:211][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001344s)
+[2025.02.21-22.17.47:222][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.02.21-22.17.47:227][678]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.21-22.17.47:228][678]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2025.02.21-22.17.47:229][678]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2025.02.21-22.17.47:229][678]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.21-22.17.47:229][678]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.21-22.17.47:229][678]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.21-22.17.47:229][678]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.21-22.17.47:229][678]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.21-22.17.47:229][678]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.21-22.17.47:229][678]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.21-22.17.47:229][678]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.21-22.17.47:229][678]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.21-22.17.47:229][678]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.21-22.17.47:229][678]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.21-22.17.47:231][678]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.21-22.17.47:242][678]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.21-22.17.47:242][678]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.21-22.17.47:242][678]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.21-22.17.47:242][678]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.21-22.17.47:243][678]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2025.02.21-22.17.47:243][678]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2025.02.21-22.17.47:244][678]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2025.02.21-22.17.47:245][678]LogInit: FAudioDevice initialized with ID 33.
+[2025.02.21-22.17.47:245][678]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2025.02.21-22.17.47:245][678]LogAudio: Display: Audio Device (ID: 33) registered with world 'Drone'.
+[2025.02.21-22.17.47:245][678]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2025.02.21-22.17.47:247][678]LogLoad: Game class is 'MyGameModeBase_C'
+[2025.02.21-22.17.47:247][678]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.21-14.17.47
+[2025.02.21-22.17.47:247][678]LogWorld: Bringing up level for play took: 0.000593
+[2025.02.21-22.17.47:248][678]PIE: Server logged in
+[2025.02.21-22.17.47:249][678]PIE: Play in editor total start time 0.114 seconds.
+[2025.02.21-22.18.00:709][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.18.00:709][281]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.21-22.18.00:710][281]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.21-22.18.00:710][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.18.00:713][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.21-22.18.00:716][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.18.00:726][281]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.21-22.18.00:726][281]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2025.02.21-22.18.00:726][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.02.21-22.18.00:727][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.02.21-22.18.00:730][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.18.00:732][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.02.21-22.18.00:781][282]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2025.02.21-22.18.22:077][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.21-22.18.23:521][896]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.21-22.18.23:525][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.21-22.18.23:549][896]LogPlayLevel: Display: Creating online subsystem for client :Context_54
+[2025.02.21-22.18.23:551][896]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2025.02.21-22.18.23:580][897]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Drone
+[2025.02.21-22.18.23:581][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001220s)
+[2025.02.21-22.18.23:581][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Drone.Drone to /Game/UEDPIE_0_Drone.Drone (0.001255s)
+[2025.02.21-22.18.23:591][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.02.21-22.18.23:596][897]LogChaosDD: Creating Chaos Debug Draw Scene for world Drone
+[2025.02.21-22.18.23:597][897]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2025.02.21-22.18.23:598][897]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2025.02.21-22.18.23:599][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.21-22.18.23:599][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.21-22.18.23:599][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.21-22.18.23:599][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.21-22.18.23:599][897]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.21-22.18.23:599][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.21-22.18.23:599][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.21-22.18.23:599][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.21-22.18.23:599][897]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.21-22.18.23:599][897]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.21-22.18.23:599][897]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.21-22.18.23:600][897]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.21-22.18.23:611][897]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek(R) Audio)
+[2025.02.21-22.18.23:611][897]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.21-22.18.23:611][897]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.21-22.18.23:611][897]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.21-22.18.23:611][897]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2025.02.21-22.18.23:611][897]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2025.02.21-22.18.23:613][897]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2025.02.21-22.18.23:614][897]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2025.02.21-22.18.23:614][897]LogInit: FAudioDevice initialized with ID 34.
+[2025.02.21-22.18.23:614][897]LogAudio: Display: Audio Device (ID: 34) registered with world 'Drone'.
+[2025.02.21-22.18.23:614][897]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2025.02.21-22.18.23:616][897]LogLoad: Game class is 'MyGameModeBase_C'
+[2025.02.21-22.18.23:616][897]LogWorld: Bringing World /Game/UEDPIE_0_Drone.Drone up for play (max tick rate 0) at 2025.02.21-14.18.23
+[2025.02.21-22.18.23:616][897]LogWorld: Bringing up level for play took: 0.000622
+[2025.02.21-22.18.23:618][897]PIE: Server logged in
+[2025.02.21-22.18.23:619][897]PIE: Play in editor total start time 0.094 seconds.
+[2025.02.21-22.19.10:399][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.19.10:399][498]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Drone
+[2025.02.21-22.19.10:399][498]LogWorld: UWorld::CleanupWorld for Drone, bSessionEnded=true, bCleanupResources=true
+[2025.02.21-22.19.10:399][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.19.10:402][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.21-22.19.10:404][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.21-22.19.10:418][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.21-22.19.10:418][498]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2025.02.21-22.19.10:419][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.02.21-22.19.10:420][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.02.21-22.19.10:426][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.02.21-22.19.10:532][500]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2025.02.21-22.20.25:762][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.02.21-22.20.25:769][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Drone_Auto1
+[2025.02.21-22.20.25:770][400]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Drone_Auto13CAF6429408B8F470052868BD481DE04.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Drone_Auto1.umap'
+[2025.02.21-22.20.25:770][400]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Drone' took 0.019
+[2025.02.21-22.20.25:770][400]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.019
+[2025.02.21-22.20.25:770][400]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_Drone] ([2] browsable assets)...
+[2025.02.21-22.20.25:799][400]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Drone.BP_Drone]
+[2025.02.21-22.20.25:799][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Drone]
+[2025.02.21-22.20.25:806][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_Drone_Auto1
+[2025.02.21-22.20.25:806][400]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Drone_Auto12CDB9FE04BFBE0CB19F897B17E677B8B.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Blueprint/BP_Drone_Auto1.uasset'
+[2025.02.21-22.20.25:807][400]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_Bullet] ([2] browsable assets)...
+[2025.02.21-22.20.25:811][400]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Bullet.BP_Bullet]
+[2025.02.21-22.20.25:811][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Bullet]
+[2025.02.21-22.20.25:814][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_Bullet_Auto1
+[2025.02.21-22.20.25:814][400]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Bullet_Auto1434436C141418CCB775E1EA561B1C06E.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Blueprint/BP_Bullet_Auto1.uasset'
+[2025.02.21-22.20.25:815][400]LogFileHelpers: Auto-saving content packages took 0.044
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: ================================================
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Total job queries 11,809, among them cache hits 70 (0.59%), DDC hits 0 (0.00%), Duplicates 2,685 (22.74%)
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Tracking 9,054 distinct input hashes that result in 8,529 distinct outputs (94.20%)
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: RAM used: 6.38 MiB of 1.60 GiB budget. Usage: 0.39%
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Shaders Compiled: 9,053
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Jobs assigned 9,053, completed 9,053 (100%)
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Average time worker was idle: 39.29 s
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Time job spent in pending queue: average 93.88 s, longest 204.12 s
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Job execution time: average 3.75 s, max 54.86 s
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Job life time (pending + execution): average 97.63 s, max 214.96
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Shader code size: average 14.236 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 247.31 s
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.61%
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Jobs were issued in 1,086 batches (only local compilation was used), average 8.34 jobs/batch
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Average processing rate: 36.61 jobs/sec
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Total thread time: 3,450.762 s
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Total thread preprocess time: 96.21 s
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Percentage time preprocessing: 2.79%
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Effective parallelization: 13.95 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 12.67 sec, max 44.47 sec, min 0.84 sec)
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 10.25 sec, max 10.25 sec, min 10.25 sec)
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.80 sec, max 6.63 sec, min 3.54 sec)
+[2025.02.21-22.20.56:602][ 86]LogShaderCompilers: Display:                                        FCloudRenderViewPS100 (compiled    1 times, average 3.00 sec, max 3.00 sec, min 3.00 sec)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 2.51 sec, max 5.30 sec, min 0.80 sec)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.55% of total time (compiled  454 times, average 0.95 sec, max 1.38 sec, min 0.61 sec)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.39% of total time (compiled  260 times, average 1.38 sec, max 3.46 sec, min 0.00 sec)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 9.91% of total time (compiled   27 times, average 12.67 sec, max 44.47 sec, min 0.84 sec)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.58% of total time (compiled  480 times, average 0.40 sec, max 0.64 sec, min 0.17 sec)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.19% of total time (compiled   68 times, average 2.13 sec, max 3.98 sec, min 1.29 sec)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: === Material stats ===
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: Materials Translated:    168
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: Material Translation Only: 0.03 s (33%)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.02.21-22.20.56:603][ 86]LogShaderCompilers: Display: ================================================
+[2025.02.21-22.21.36:660][830]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/_GENERATED/jmorale023/Stairs_D1E0BC57.Stairs_D1E0BC57
+[2025.02.21-22.21.36:660][830]LogStaticMesh: Display: Building static mesh Stairs_D1E0BC57 (Required Memory Estimate: 0.336536 MB)...
+[2025.02.21-22.21.36:661][830]LogStaticMesh: Built static mesh [0.00s] /Game/_GENERATED/jmorale023/Stairs_D1E0BC57.Stairs_D1E0BC57
+[2025.02.21-22.21.36:661][830]LogActorFactory: Actor Factory spawned StaticMesh /Game/_GENERATED/jmorale023/Stairs_D1E0BC57.Stairs_D1E0BC57 as actor: StaticMeshActor /Game/Drone.Drone:PersistentLevel.StaticMeshActor_14
+[2025.02.21-22.21.43:427][583]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/_GENERATED/jmorale023/Stairs_D1E0BC57.Stairs_D1E0BC57
+[2025.02.21-22.21.43:432][583]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.02.21-22.22.02:760][772]LogEditorTransaction: Undo Create Convex Collision
+[2025.02.21-22.22.11:543][716]LogEditorTransaction: Undo Translate Collision
+[2025.02.21-22.22.15:543][ 96]LogEditorTransaction: Undo Scale Collision
+[2025.02.21-22.22.34:693][248]LogEditorTransaction: Undo Translate Collision
+[2025.02.21-22.22.35:718][268]LogEditorTransaction: Undo Scale Collision
+[2025.02.21-22.22.39:965][685]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7666.651855
+[2025.02.21-22.22.40:007][690]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.21-22.22.40:007][690]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7666.685059, Update Interval: 330.389099
+[2025.02.21-22.23.41:747][950]LogEditorTransaction: Undo Scale Collision
+[2025.02.21-22.23.42:934][992]LogEditorTransaction: Undo Scale Collision
+[2025.02.21-22.24.09:927][122]LogEditorTransaction: Undo Translate Collision
+[2025.02.21-22.24.28:776][275]LogEditorTransaction: Undo Scale Collision
+[2025.02.21-22.24.30:055][329]LogEditorTransaction: Undo Translate Collision
+[2025.02.21-22.26.52:153][285]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.21-22.26.52:181][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_GENERATED/jmorale023/Stairs_D1E0BC57] ([1] browsable assets)...
+[2025.02.21-22.26.52:188][285]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/_GENERATED/jmorale023/Stairs_D1E0BC57.Stairs_D1E0BC57]
+[2025.02.21-22.26.52:189][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Stairs_D1E0BC57]
+[2025.02.21-22.26.52:190][285]LogSavePackage: Moving output files for package: /Game/_GENERATED/jmorale023/Stairs_D1E0BC57
+[2025.02.21-22.26.52:191][285]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Stairs_D1E0BC57DC656A1F42AFB72FF4A05C9F3C1687C5.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/_GENERATED/jmorale023/Stairs_D1E0BC57.uasset'
+[2025.02.21-22.26.52:196][285]LogFileHelpers: InternalPromptForCheckoutAndSave took 42.104 ms (total: 169.768 ms)
+[2025.02.21-22.26.52:224][285]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.21-22.26.52:224][285]LogContentValidation: Enabled validators:
+[2025.02.21-22.26.52:224][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.21-22.26.52:224][285]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.21-22.26.52:224][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.21-22.26.52:224][285]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.21-22.26.52:224][285]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.21-22.26.52:224][285]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.21-22.26.52:224][285]AssetCheck: /Game/_GENERATED/jmorale023/Stairs_D1E0BC57 Validating asset
+[2025.02.21-22.26.55:304][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.21-22.26.55:331][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.02.21-22.26.55:501][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.02.21-22.26.55:508][642]LogSavePackage: Moving output files for package: /Game/Drone
+[2025.02.21-22.26.55:508][642]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/DroneEDFD8F0F452701F200B243BA997304A8.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap'
+[2025.02.21-22.26.55:513][642]LogFileHelpers: Saving map 'Drone' took 0.183
+[2025.02.21-22.26.55:521][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.961 ms (total: 385.730 ms)
+[2025.02.21-22.26.55:548][642]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.21-22.26.55:548][642]LogContentValidation: Enabled validators:
+[2025.02.21-22.26.55:548][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.21-22.26.55:548][642]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.21-22.26.55:548][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.21-22.26.55:548][642]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.21-22.26.55:548][642]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.21-22.26.55:548][642]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.21-22.26.55:549][642]AssetCheck: /Game/Drone Validating asset
+[2025.02.21-22.26.58:205][912]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.21-22.26.58:231][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.02.21-22.26.58:251][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.02.21-22.26.58:259][912]LogSavePackage: Moving output files for package: /Game/Drone
+[2025.02.21-22.26.58:259][912]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/DroneE7CCD139453C6EF8AF89B2A1B0D1894C.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap'
+[2025.02.21-22.26.58:264][912]LogFileHelpers: Saving map 'Drone' took 0.032
+[2025.02.21-22.26.58:271][912]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.862 ms (total: 451.592 ms)
+[2025.02.21-22.26.58:291][912]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.21-22.26.58:291][912]LogContentValidation: Enabled validators:
+[2025.02.21-22.26.58:291][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.21-22.26.58:291][912]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.21-22.26.58:291][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.21-22.26.58:291][912]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.21-22.26.58:291][912]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.21-22.26.58:291][912]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.21-22.26.58:292][912]AssetCheck: /Game/Drone Validating asset
