@@ -5802,3 +5802,146 @@ Sampler Limit: 32
 [2025.03.07-22.08.35:228][340]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5480.311035
 [2025.03.07-22.08.35:279][346]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.07-22.08.35:279][346]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5480.354004, Update Interval: 318.906219
+[2025.03.07-22.14.24:632][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.03.07-22.14.24:643][952]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Drone_Auto7
+[2025.03.07-22.14.24:644][952]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Drone_Auto71734F64C45F8B1F25063E29A604E35AF.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Drone_Auto7.umap'
+[2025.03.07-22.14.24:644][952]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Drone' took 0.031
+[2025.03.07-22.14.24:644][952]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.031
+[2025.03.07-22.14.24:645][952]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Enemy] ([2] browsable assets)...
+[2025.03.07-22.14.24:833][952]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Enemy.BP_Enemy]
+[2025.03.07-22.14.24:833][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Enemy]
+[2025.03.07-22.14.24:835][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Enemy" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/BP_Enemy_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2025.03.07-22.14.24:839][952]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_Enemy_Auto7
+[2025.03.07-22.14.24:839][952]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Enemy_Auto718D6736346F0701C31EAF9A0A9554AE3.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/BP_Enemy_Auto7.uasset'
+[2025.03.07-22.14.24:839][952]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_Enemy2] ([2] browsable assets)...
+[2025.03.07-22.14.24:874][952]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Enemy2.BP_Enemy2]
+[2025.03.07-22.14.24:874][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Enemy2]
+[2025.03.07-22.14.24:877][952]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_Enemy2_Auto7
+[2025.03.07-22.14.24:877][952]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Enemy2_Auto7862C10BB4A885CE76177DF9F9A3DD8BB.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/Blueprint/BP_Enemy2_Auto7.uasset'
+[2025.03.07-22.14.24:878][952]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_PlayerBullet] ([1] browsable assets)...
+[2025.03.07-22.14.24:917][952]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_PlayerBullet.M_PlayerBullet]
+[2025.03.07-22.14.24:917][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_PlayerBullet]
+[2025.03.07-22.14.24:918][952]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/M_PlayerBullet_Auto7
+[2025.03.07-22.14.24:918][952]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/M_PlayerBullet_Auto7A6E332C34CD4224EDEB84D9DB16FEEFD.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Autosaves/Game/M_PlayerBullet_Auto7.uasset'
+[2025.03.07-22.14.24:918][952]LogFileHelpers: Auto-saving content packages took 0.273
+[2025.03.07-22.14.45:615][ 16]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5850.699707
+[2025.03.07-22.14.46:616][ 19]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.07-22.14.46:616][ 19]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5851.366699, Update Interval: 356.383545
+[2025.03.07-22.21.40:037][259]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6265.127441
+[2025.03.07-22.21.41:037][262]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.07-22.21.41:037][262]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6265.793457, Update Interval: 312.217163
+[2025.03.07-22.26.04:052][386]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.07-22.26.04:080][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.07-22.26.04:104][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.03.07-22.26.04:113][386]LogSavePackage: Moving output files for package: /Game/Drone
+[2025.03.07-22.26.04:114][386]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Drone99A174574EE589ABFEF1058723B3984C.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Drone.umap'
+[2025.03.07-22.26.04:119][386]LogFileHelpers: Saving map 'Drone' took 0.039
+[2025.03.07-22.26.04:125][386]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.086 ms (total: 257.570 ms)
+[2025.03.07-22.26.04:147][386]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.07-22.26.04:147][386]LogContentValidation: Enabled validators:
+[2025.03.07-22.26.04:147][386]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.07-22.26.04:147][386]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.07-22.26.04:147][386]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.07-22.26.04:147][386]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.07-22.26.04:147][386]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.07-22.26.04:147][386]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.07-22.26.04:147][386]AssetCheck: /Game/Drone Validating asset
+[2025.03.07-22.26.07:605][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.03.07-22.26.07:608][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.07-22.26.07:636][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_PlayerBullet] ([2] browsable assets)...
+[2025.03.07-22.26.07:636][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_PlayerBullet]
+[2025.03.07-22.26.07:636][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_PlayerBullet" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_PlayerBullet.uasset" SILENT=true
+[2025.03.07-22.26.07:638][785]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_PlayerBullet
+[2025.03.07-22.26.07:638][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_PlayerBulletB2B439444FFE3E79C7AFA19997A437BC.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_PlayerBullet.uasset'
+[2025.03.07-22.26.07:640][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BP_Player2] ([2] browsable assets)...
+[2025.03.07-22.26.07:641][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Player2]
+[2025.03.07-22.26.07:641][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Player2" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Player2.uasset" SILENT=true
+[2025.03.07-22.26.07:643][785]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Player2
+[2025.03.07-22.26.07:643][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Player2BAE51F9841659F21BE2AC7813E3859D2.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Player2.uasset'
+[2025.03.07-22.26.07:645][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BPI_Shootable] ([2] browsable assets)...
+[2025.03.07-22.26.07:645][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/BPI_Shootable]
+[2025.03.07-22.26.07:645][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPI_Shootable" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/BPI_Shootable.uasset" SILENT=true
+[2025.03.07-22.26.07:646][785]LogSavePackage: Moving output files for package: /Game/BPI_Shootable
+[2025.03.07-22.26.07:646][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BPI_ShootableC61235734F7CF994932D51A98177408E.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/BPI_Shootable.uasset'
+[2025.03.07-22.26.07:648][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_Enemy] ([2] browsable assets)...
+[2025.03.07-22.26.07:648][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Enemy]
+[2025.03.07-22.26.07:648][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Enemy" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/BP_Enemy.uasset" SILENT=true
+[2025.03.07-22.26.07:651][785]LogSavePackage: Moving output files for package: /Game/BP_Enemy
+[2025.03.07-22.26.07:651][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Enemy4497B4834DBED7BC381B7CBD3EE0FC23.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/BP_Enemy.uasset'
+[2025.03.07-22.26.07:651][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Drone] ([2] browsable assets)...
+[2025.03.07-22.26.07:651][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Drone]
+[2025.03.07-22.26.07:651][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Drone" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Drone.uasset" SILENT=true
+[2025.03.07-22.26.07:658][785]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Drone
+[2025.03.07-22.26.07:658][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Drone9BC230904744247B35E25391BB452F21.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Drone.uasset'
+[2025.03.07-22.26.07:659][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Player] ([2] browsable assets)...
+[2025.03.07-22.26.07:659][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Player]
+[2025.03.07-22.26.07:659][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/BP_Player.uasset" SILENT=true
+[2025.03.07-22.26.07:665][785]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2025.03.07-22.26.07:665][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Player91F262A24F0389944E86D3852004BDD6.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/BP_Player.uasset'
+[2025.03.07-22.26.07:666][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/MyInputMappingContext] ([1] browsable assets)...
+[2025.03.07-22.26.07:666][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/MyInputMappingContext]
+[2025.03.07-22.26.07:667][785]LogSavePackage: Moving output files for package: /Game/Blueprint/MyInputMappingContext
+[2025.03.07-22.26.07:667][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/MyInputMappingContextFE7C9830411727FB27A14BA61E0207C1.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/MyInputMappingContext.uasset'
+[2025.03.07-22.26.07:667][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Shoot] ([1] browsable assets)...
+[2025.03.07-22.26.07:667][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Shoot]
+[2025.03.07-22.26.07:667][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Shoot" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/Shoot.uasset" SILENT=true
+[2025.03.07-22.26.07:668][785]LogSavePackage: Moving output files for package: /Game/Blueprint/Shoot
+[2025.03.07-22.26.07:668][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/ShootF14AB3894F34DFF32D3103B319BEEE45.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/Shoot.uasset'
+[2025.03.07-22.26.07:668][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameModeBase] ([2] browsable assets)...
+[2025.03.07-22.26.07:668][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameModeBase]
+[2025.03.07-22.26.07:668][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameModeBase" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/MyGameModeBase.uasset" SILENT=true
+[2025.03.07-22.26.07:670][785]LogSavePackage: Moving output files for package: /Game/MyGameModeBase
+[2025.03.07-22.26.07:670][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/MyGameModeBase877EF86A4B6ABBB942FB79989CC81CAD.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/MyGameModeBase.uasset'
+[2025.03.07-22.26.07:670][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Target] ([2] browsable assets)...
+[2025.03.07-22.26.07:670][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Target]
+[2025.03.07-22.26.07:670][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Target" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Target.uasset" SILENT=true
+[2025.03.07-22.26.07:672][785]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Target
+[2025.03.07-22.26.07:672][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_TargetF0F0444542E6DD18D6A6F2BAC94ABF5C.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Target.uasset'
+[2025.03.07-22.26.07:674][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Enemy2] ([2] browsable assets)...
+[2025.03.07-22.26.07:674][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Enemy2]
+[2025.03.07-22.26.07:674][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Enemy2" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Enemy2.uasset" SILENT=true
+[2025.03.07-22.26.07:676][785]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Enemy2
+[2025.03.07-22.26.07:677][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/BP_Enemy2E2A54E3B4F759D5F7877F2BC66239DA1.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/Blueprint/BP_Enemy2.uasset'
+[2025.03.07-22.26.07:677][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/M_Weapon] ([1] browsable assets)...
+[2025.03.07-22.26.07:677][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Weapon]
+[2025.03.07-22.26.07:677][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Weapon" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/M_Weapon.uasset" SILENT=true
+[2025.03.07-22.26.07:678][785]LogSavePackage: Moving output files for package: /Game/M_Weapon
+[2025.03.07-22.26.07:678][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/M_WeaponF9E205E04AF0BAEA28BF6A99A3A791D2.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/M_Weapon.uasset'
+[2025.03.07-22.26.07:678][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/M_Base] ([1] browsable assets)...
+[2025.03.07-22.26.07:678][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Base]
+[2025.03.07-22.26.07:678][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Base" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/M_Base.uasset" SILENT=true
+[2025.03.07-22.26.07:679][785]LogSavePackage: Moving output files for package: /Game/M_Base
+[2025.03.07-22.26.07:679][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/M_BaseCE1A816D4694BDD6B10313B0DFE0F4B4.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/M_Base.uasset'
+[2025.03.07-22.26.07:679][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_GENERATED/jmorale023/Box_D90D91DA] ([1] browsable assets)...
+[2025.03.07-22.26.07:679][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/_GENERATED/jmorale023/Box_D90D91DA]
+[2025.03.07-22.26.07:681][785]LogSavePackage: Moving output files for package: /Game/_GENERATED/jmorale023/Box_D90D91DA
+[2025.03.07-22.26.07:681][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/Box_D90D91DA1D1B23344597B836DE467A82D9541060.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/_GENERATED/jmorale023/Box_D90D91DA.uasset'
+[2025.03.07-22.26.07:682][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/M_PlayerBullet] ([1] browsable assets)...
+[2025.03.07-22.26.07:682][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_PlayerBullet]
+[2025.03.07-22.26.07:682][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_PlayerBullet" FILE="../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/M_PlayerBullet.uasset" SILENT=true
+[2025.03.07-22.26.07:682][785]LogSavePackage: Moving output files for package: /Game/M_PlayerBullet
+[2025.03.07-22.26.07:682][785]LogSavePackage: Moving '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Saved/M_PlayerBulletDD386263428F4CB3314FCB836874F203.tmp' to '../../../../../../Users/jmorale023/Documents/GitHub/UnrealClass/DroningTime/Content/M_PlayerBullet.uasset'
+[2025.03.07-22.26.07:689][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.371 ms (total: 337.941 ms)
+[2025.03.07-22.26.07:712][785]LogContentValidation: Display: Starting to validate 15 assets
+[2025.03.07-22.26.07:712][785]LogContentValidation: Enabled validators:
+[2025.03.07-22.26.07:712][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.07-22.26.07:712][785]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.07-22.26.07:712][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.07-22.26.07:712][785]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.07-22.26.07:712][785]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.07-22.26.07:712][785]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.07-22.26.07:712][785]AssetCheck: /Game/Blueprint/BP_PlayerBullet Validating asset
+[2025.03.07-22.26.07:712][785]AssetCheck: /Game/Blueprint/BP_Player2 Validating asset
+[2025.03.07-22.26.07:712][785]AssetCheck: /Game/BPI_Shootable Validating asset
+[2025.03.07-22.26.07:712][785]AssetCheck: /Game/BP_Enemy Validating asset
+[2025.03.07-22.26.07:712][785]AssetCheck: /Game/Blueprint/BP_Drone Validating asset
+[2025.03.07-22.26.07:712][785]AssetCheck: /Game/BP_Player Validating asset
+[2025.03.07-22.26.07:712][785]AssetCheck: /Game/Blueprint/MyInputMappingContext Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/Blueprint/Shoot Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/MyGameModeBase Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/Blueprint/BP_Target Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/Blueprint/BP_Enemy2 Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/M_Weapon Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/M_Base Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/_GENERATED/jmorale023/Box_D90D91DA Validating asset
+[2025.03.07-22.26.07:713][785]AssetCheck: /Game/M_PlayerBullet Validating asset
